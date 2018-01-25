@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516E28B92019C19000A77DAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E28B82019C19000A77DAA /* AppDelegate.m */; };
+		516E28BF2019C19000A77DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516E28BD2019C19000A77DAA /* Main.storyboard */; };
+		516E28C12019C19000A77DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516E28C02019C19000A77DAA /* Assets.xcassets */; };
+		516E28C42019C19000A77DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516E28C22019C19000A77DAA /* LaunchScreen.storyboard */; };
+		516E28C72019C19000A77DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E28C62019C19000A77DAA /* main.m */; };
+		516E28D12019C19000A77DAA /* TBMultilayerMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E28D02019C19000A77DAA /* TBMultilayerMenuTests.m */; };
+		516E28DC2019C19000A77DAA /* TBMultilayerMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E28DB2019C19000A77DAA /* TBMultilayerMenuUITests.m */; };
+		516E28FA2019C1BB00A77DAA /* TBMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E28EC2019C1BB00A77DAA /* TBMenuItem.m */; };
+		516E28FB2019C1BB00A77DAA /* a.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516E28EE2019C1BB00A77DAA /* a.plist */; };
+		516E28FC2019C1BB00A77DAA /* b.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516E28EF2019C1BB00A77DAA /* b.plist */; };
+		516E28FD2019C1BB00A77DAA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E28F12019C1BB00A77DAA /* UIView+Extension.m */; };
+		516E28FE2019C1BB00A77DAA /* TBCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E28F32019C1BB00A77DAA /* TBCustomViewController.m */; };
+		516E28FF2019C1BB00A77DAA /* TBMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E28F62019C1BB00A77DAA /* TBMenuItemViewController.m */; };
+		516E29002019C1BB00A77DAA /* TBMenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E28F92019C1BB00A77DAA /* TBMenuItemCell.m */; };
+		9DFE2755A64BC5E58CEBB191 /* Pods_TBMultilayerMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA5DF5B2A8F06D2E57494B5 /* Pods_TBMultilayerMenu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		516E28CD2019C19000A77DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516E28AC2019C19000A77DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516E28B32019C19000A77DAA;
+			remoteInfo = TBMultilayerMenu;
+		};
+		516E28D82019C19000A77DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516E28AC2019C19000A77DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516E28B32019C19000A77DAA;
+			remoteInfo = TBMultilayerMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CA5DF5B2A8F06D2E57494B5 /* Pods_TBMultilayerMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBMultilayerMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		516E28B42019C19000A77DAA /* TBMultilayerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBMultilayerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516E28B72019C19000A77DAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		516E28B82019C19000A77DAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		516E28BE2019C19000A77DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		516E28C02019C19000A77DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		516E28C32019C19000A77DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		516E28C52019C19000A77DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516E28C62019C19000A77DAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		516E28CC2019C19000A77DAA /* TBMultilayerMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBMultilayerMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516E28D02019C19000A77DAA /* TBMultilayerMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBMultilayerMenuTests.m; sourceTree = "<group>"; };
+		516E28D22019C19000A77DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516E28D72019C19000A77DAA /* TBMultilayerMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBMultilayerMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516E28DB2019C19000A77DAA /* TBMultilayerMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBMultilayerMenuUITests.m; sourceTree = "<group>"; };
+		516E28DD2019C19000A77DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516E28EB2019C1BB00A77DAA /* TBMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMenuItem.h; sourceTree = "<group>"; };
+		516E28EC2019C1BB00A77DAA /* TBMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMenuItem.m; sourceTree = "<group>"; };
+		516E28EE2019C1BB00A77DAA /* a.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = a.plist; sourceTree = "<group>"; };
+		516E28EF2019C1BB00A77DAA /* b.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = b.plist; sourceTree = "<group>"; };
+		516E28F02019C1BB00A77DAA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		516E28F12019C1BB00A77DAA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		516E28F22019C1BB00A77DAA /* TBCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCustomViewController.h; sourceTree = "<group>"; };
+		516E28F32019C1BB00A77DAA /* TBCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCustomViewController.m; sourceTree = "<group>"; };
+		516E28F52019C1BB00A77DAA /* TBMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMenuItemViewController.h; sourceTree = "<group>"; };
+		516E28F62019C1BB00A77DAA /* TBMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMenuItemViewController.m; sourceTree = "<group>"; };
+		516E28F82019C1BB00A77DAA /* TBMenuItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMenuItemCell.h; sourceTree = "<group>"; };
+		516E28F92019C1BB00A77DAA /* TBMenuItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMenuItemCell.m; sourceTree = "<group>"; };
+		654FF46E8D8A3AE7190A5819 /* Pods-TBMultilayerMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBMultilayerMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBMultilayerMenu/Pods-TBMultilayerMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		96B9D10D0C798F89392916CE /* Pods-TBMultilayerMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBMultilayerMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBMultilayerMenu/Pods-TBMultilayerMenu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516E28B12019C19000A77DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFE2755A64BC5E58CEBB191 /* Pods_TBMultilayerMenu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E28C92019C19000A77DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E28D42019C19000A77DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AEA46A5418C41AC73F9B785 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				654FF46E8D8A3AE7190A5819 /* Pods-TBMultilayerMenu.debug.xcconfig */,
+				96B9D10D0C798F89392916CE /* Pods-TBMultilayerMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		516E28AB2019C19000A77DAA = {
+			isa = PBXGroup;
+			children = (
+				516E28B62019C19000A77DAA /* TBMultilayerMenu */,
+				516E28CF2019C19000A77DAA /* TBMultilayerMenuTests */,
+				516E28DA2019C19000A77DAA /* TBMultilayerMenuUITests */,
+				516E28B52019C19000A77DAA /* Products */,
+				1AEA46A5418C41AC73F9B785 /* Pods */,
+				E21744B832212FC5E7C300D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		516E28B52019C19000A77DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516E28B42019C19000A77DAA /* TBMultilayerMenu.app */,
+				516E28CC2019C19000A77DAA /* TBMultilayerMenuTests.xctest */,
+				516E28D72019C19000A77DAA /* TBMultilayerMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516E28B62019C19000A77DAA /* TBMultilayerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				516E28E92019C1BB00A77DAA /* code */,
+				516E28B72019C19000A77DAA /* AppDelegate.h */,
+				516E28B82019C19000A77DAA /* AppDelegate.m */,
+				516E28BD2019C19000A77DAA /* Main.storyboard */,
+				516E28C02019C19000A77DAA /* Assets.xcassets */,
+				516E28C22019C19000A77DAA /* LaunchScreen.storyboard */,
+				516E28C52019C19000A77DAA /* Info.plist */,
+				516E28C62019C19000A77DAA /* main.m */,
+			);
+			path = TBMultilayerMenu;
+			sourceTree = "<group>";
+		};
+		516E28CF2019C19000A77DAA /* TBMultilayerMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				516E28D02019C19000A77DAA /* TBMultilayerMenuTests.m */,
+				516E28D22019C19000A77DAA /* Info.plist */,
+			);
+			path = TBMultilayerMenuTests;
+			sourceTree = "<group>";
+		};
+		516E28DA2019C19000A77DAA /* TBMultilayerMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				516E28DB2019C19000A77DAA /* TBMultilayerMenuUITests.m */,
+				516E28DD2019C19000A77DAA /* Info.plist */,
+			);
+			path = TBMultilayerMenuUITests;
+			sourceTree = "<group>";
+		};
+		516E28E92019C1BB00A77DAA /* code */ = {
+			isa = PBXGroup;
+			children = (
+				516E28F22019C1BB00A77DAA /* TBCustomViewController.h */,
+				516E28F32019C1BB00A77DAA /* TBCustomViewController.m */,
+				516E28EA2019C1BB00A77DAA /* Model */,
+				516E28ED2019C1BB00A77DAA /* Other */,
+				516E28F42019C1BB00A77DAA /* VC */,
+				516E28F72019C1BB00A77DAA /* View */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		516E28EA2019C1BB00A77DAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				516E28EB2019C1BB00A77DAA /* TBMenuItem.h */,
+				516E28EC2019C1BB00A77DAA /* TBMenuItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		516E28ED2019C1BB00A77DAA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				516E28EE2019C1BB00A77DAA /* a.plist */,
+				516E28EF2019C1BB00A77DAA /* b.plist */,
+				516E28F02019C1BB00A77DAA /* UIView+Extension.h */,
+				516E28F12019C1BB00A77DAA /* UIView+Extension.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		516E28F42019C1BB00A77DAA /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				516E28F52019C1BB00A77DAA /* TBMenuItemViewController.h */,
+				516E28F62019C1BB00A77DAA /* TBMenuItemViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		516E28F72019C1BB00A77DAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				516E28F82019C1BB00A77DAA /* TBMenuItemCell.h */,
+				516E28F92019C1BB00A77DAA /* TBMenuItemCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E21744B832212FC5E7C300D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CA5DF5B2A8F06D2E57494B5 /* Pods_TBMultilayerMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516E28B32019C19000A77DAA /* TBMultilayerMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516E28E02019C19000A77DAA /* Build configuration list for PBXNativeTarget "TBMultilayerMenu" */;
+			buildPhases = (
+				3B31D634FBE4EE5C0F7B2407 /* [CP] Check Pods Manifest.lock */,
+				516E28B02019C19000A77DAA /* Sources */,
+				516E28B12019C19000A77DAA /* Frameworks */,
+				516E28B22019C19000A77DAA /* Resources */,
+				5CFD09891361350BA42DDE02 /* [CP] Embed Pods Frameworks */,
+				181CE70DD25F88DD921765A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBMultilayerMenu;
+			productName = TBMultilayerMenu;
+			productReference = 516E28B42019C19000A77DAA /* TBMultilayerMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		516E28CB2019C19000A77DAA /* TBMultilayerMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516E28E32019C19000A77DAA /* Build configuration list for PBXNativeTarget "TBMultilayerMenuTests" */;
+			buildPhases = (
+				516E28C82019C19000A77DAA /* Sources */,
+				516E28C92019C19000A77DAA /* Frameworks */,
+				516E28CA2019C19000A77DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516E28CE2019C19000A77DAA /* PBXTargetDependency */,
+			);
+			name = TBMultilayerMenuTests;
+			productName = TBMultilayerMenuTests;
+			productReference = 516E28CC2019C19000A77DAA /* TBMultilayerMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		516E28D62019C19000A77DAA /* TBMultilayerMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516E28E62019C19000A77DAA /* Build configuration list for PBXNativeTarget "TBMultilayerMenuUITests" */;
+			buildPhases = (
+				516E28D32019C19000A77DAA /* Sources */,
+				516E28D42019C19000A77DAA /* Frameworks */,
+				516E28D52019C19000A77DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516E28D92019C19000A77DAA /* PBXTargetDependency */,
+			);
+			name = TBMultilayerMenuUITests;
+			productName = TBMultilayerMenuUITests;
+			productReference = 516E28D72019C19000A77DAA /* TBMultilayerMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516E28AC2019C19000A77DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = hanchuangkeji;
+				TargetAttributes = {
+					516E28B32019C19000A77DAA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					516E28CB2019C19000A77DAA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 516E28B32019C19000A77DAA;
+					};
+					516E28D62019C19000A77DAA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 516E28B32019C19000A77DAA;
+					};
+				};
+			};
+			buildConfigurationList = 516E28AF2019C19000A77DAA /* Build configuration list for PBXProject "TBMultilayerMenu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 516E28AB2019C19000A77DAA;
+			productRefGroup = 516E28B52019C19000A77DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516E28B32019C19000A77DAA /* TBMultilayerMenu */,
+				516E28CB2019C19000A77DAA /* TBMultilayerMenuTests */,
+				516E28D62019C19000A77DAA /* TBMultilayerMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516E28B22019C19000A77DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516E28C42019C19000A77DAA /* LaunchScreen.storyboard in Resources */,
+				516E28C12019C19000A77DAA /* Assets.xcassets in Resources */,
+				516E28FB2019C1BB00A77DAA /* a.plist in Resources */,
+				516E28BF2019C19000A77DAA /* Main.storyboard in Resources */,
+				516E28FC2019C1BB00A77DAA /* b.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E28CA2019C19000A77DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E28D52019C19000A77DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		181CE70DD25F88DD921765A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBMultilayerMenu/Pods-TBMultilayerMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B31D634FBE4EE5C0F7B2407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TBMultilayerMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CFD09891361350BA42DDE02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TBMultilayerMenu/Pods-TBMultilayerMenu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBMultilayerMenu/Pods-TBMultilayerMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516E28B02019C19000A77DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516E28FF2019C1BB00A77DAA /* TBMenuItemViewController.m in Sources */,
+				516E28FD2019C1BB00A77DAA /* UIView+Extension.m in Sources */,
+				516E28FE2019C1BB00A77DAA /* TBCustomViewController.m in Sources */,
+				516E28FA2019C1BB00A77DAA /* TBMenuItem.m in Sources */,
+				516E29002019C1BB00A77DAA /* TBMenuItemCell.m in Sources */,
+				516E28C72019C19000A77DAA /* main.m in Sources */,
+				516E28B92019C19000A77DAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E28C82019C19000A77DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516E28D12019C19000A77DAA /* TBMultilayerMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E28D32019C19000A77DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516E28DC2019C19000A77DAA /* TBMultilayerMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		516E28CE2019C19000A77DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516E28B32019C19000A77DAA /* TBMultilayerMenu */;
+			targetProxy = 516E28CD2019C19000A77DAA /* PBXContainerItemProxy */;
+		};
+		516E28D92019C19000A77DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516E28B32019C19000A77DAA /* TBMultilayerMenu */;
+			targetProxy = 516E28D82019C19000A77DAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		516E28BD2019C19000A77DAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516E28BE2019C19000A77DAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		516E28C22019C19000A77DAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516E28C32019C19000A77DAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		516E28DE2019C19000A77DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		516E28DF2019C19000A77DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516E28E12019C19000A77DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654FF46E8D8A3AE7190A5819 /* Pods-TBMultilayerMenu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBMultilayerMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBMultilayerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		516E28E22019C19000A77DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B9D10D0C798F89392916CE /* Pods-TBMultilayerMenu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBMultilayerMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBMultilayerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		516E28E42019C19000A77DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBMultilayerMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBMultilayerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBMultilayerMenu.app/TBMultilayerMenu";
+			};
+			name = Debug;
+		};
+		516E28E52019C19000A77DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBMultilayerMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBMultilayerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBMultilayerMenu.app/TBMultilayerMenu";
+			};
+			name = Release;
+		};
+		516E28E72019C19000A77DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBMultilayerMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBMultilayerMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TBMultilayerMenu;
+			};
+			name = Debug;
+		};
+		516E28E82019C19000A77DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBMultilayerMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBMultilayerMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TBMultilayerMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516E28AF2019C19000A77DAA /* Build configuration list for PBXProject "TBMultilayerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516E28DE2019C19000A77DAA /* Debug */,
+				516E28DF2019C19000A77DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516E28E02019C19000A77DAA /* Build configuration list for PBXNativeTarget "TBMultilayerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516E28E12019C19000A77DAA /* Debug */,
+				516E28E22019C19000A77DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516E28E32019C19000A77DAA /* Build configuration list for PBXNativeTarget "TBMultilayerMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516E28E42019C19000A77DAA /* Debug */,
+				516E28E52019C19000A77DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516E28E62019C19000A77DAA /* Build configuration list for PBXNativeTarget "TBMultilayerMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516E28E72019C19000A77DAA /* Debug */,
+				516E28E82019C19000A77DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 516E28AC2019C19000A77DAA /* Project object */;
+}
